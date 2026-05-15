@@ -27,7 +27,7 @@ export default function Homepage() {
   }, [chat_uid]);
 
   const [messages, setMessages] = useState([
-    { role: "model", content: "Sou uma ferramenta que auxilia no desenvolvemento do Raciocínio Clínico. O que você deseja fazer hoje?" },
+    { role: "model", content: "Sou uma ferramenta que auxilia no desenvolvimento do Raciocínio Clínico. O que você deseja fazer hoje?" },
   ]);
 
   const mutation = useMutation({
@@ -59,7 +59,7 @@ export default function Homepage() {
   useEffect(() => {
     if (location.pathname == "/" || location.pathname == "/chats/new") {
       setMessages([
-        { role: "model", content: "Sou uma ferramenta que auxilia no desenvolvemento do Raciocínio Clínico. O que você deseja fazer hoje?" },
+        { role: "model", content: "Sou uma ferramenta que auxilia no desenvolvimento do Raciocínio Clínico. O que você deseja fazer hoje?" },
       ]);
 
       // setChatID("");
