@@ -80,7 +80,7 @@ export default function Homepage() {
     const newMessage = { role: "user", content: input };
     setMessages((prev) =>
       [...prev, newMessage].filter(
-        (p) => p.content != "Sou uma ferramenta que auxilia no desenvolvemento do Raciocínio Clínico. O que você deseja fazer hoje?"
+        (p) => p.content != "Sou uma ferramenta que auxilia no desenvolvimento do Raciocínio Clínico. O que você deseja fazer hoje?"
       )
     );
 
